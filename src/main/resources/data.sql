@@ -1,0 +1,1 @@
+insert into employee_entity VALUES( '4562356', '10/08/1992 ','Roopa', 'Guntamukkala') ; 

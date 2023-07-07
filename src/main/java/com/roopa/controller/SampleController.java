@@ -27,6 +27,7 @@ public class SampleController {
 	public ResponseEntity<List<EmployeeDto>> getEmployee() {
 		List<EmployeeDto> response = employeeService.getEmployee();
 		return ResponseEntity.ok(response);
+		
 	}
 
 	@GetMapping(value = "/names")
